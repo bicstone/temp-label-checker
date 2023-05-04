@@ -9,6 +9,9 @@ on:
       - opened
       - reopened
 
+permissions:
+  statuses: write
+
 jobs:
   ready-deploy:
     runs-on: ubuntu-latest
